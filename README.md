@@ -1,11 +1,34 @@
-Module One Final Project
-========================
+# Module One Final Project
 
 Congratulations, you're at the end of module one! You've worked crazy hard to get here and have learned a ton.
 
 For your final project, you'll be building a Command Line Application.
 
----
+- [Goals (Minimum Requirements)](#goals-minimum-requirements)
+- [Project Overview (Timeline)](#project-overview-timeline)
+  * [Phase 1: The Setup](#phase-1-the-setup)
+    + [Planning](#planning)
+    + [The Pitch](#the-pitch)
+    + [Setup](#setup)
+  * [Phase 2: Scaffolding](#phase-2-scaffolding)
+    + [Data Models](#data-models)
+    + [Migrations](#migrations)
+    + [Seeding the Database](#seeding-the-database)
+  * [Phase 3: Execution](#phase-3-execution)
+    + [Welcome to the CLI](#welcome-to-the-cli)
+    + [Request - Input](#request---input)
+    + [Response - Output](#response---output)
+    + [CRUD IT UP!](#crud-it-up)
+  * [Phase 4: Project Review](#phase-4-project-review)
+    + [Rubric](#rubric)
+      - [Designing a CLI Application](#designing-a-cli-application)
+      - [OO Ruby Syntax](#oo-ruby-syntax)
+      - [Modeling Data Using ActiveRecord](#modeling-data-using-activerecord)
+  * [Phase 5: Freedom](#phase-5-freedom)
+    + [The Real World](#the-real-world)
+    + [Stretch Goals](#stretch-goals)
+    + [Robustness](#robustness)
+  * [Phase 6: Presentation](#phase-6-presentation)
 
 ## Goals (Minimum Requirements)
 
@@ -321,15 +344,43 @@ Take your time to plan out your code, test each method, and make many commits. A
 
 ### Phase 4: Project Review
 
-When you are ready, schedule a project review with one of your instructors. The format of the review will roughly look like this:
+Communicate with your instructor to schedule a project review. The format of the review will roughly look like this:
 
-* 3 minutes - Requirements Review
+* 5 minutes - Requirements Review
 * 5 minutes - App Overview
-* 6 minutes - Deep Dive
-* 12 minutes - Pair Programming
-* 4 minutes - Feedback
+* 15 minutes - Deep Dive
+* 15 minutes - Pair Programming
+* 5 minutes - Wrap up
 
-Once you pass the review, you will have free reign to take your command line application to new heights!
+In the interview, the instructor will check that your project meets the deliverables, have you explain your code, and check your understanding of the concepts through pair programming. 
+
+They'll use the following rubric to evaluate the project and interview.
+
+#### Rubric
+
+##### Designing a CLI Application
+
+1. Incomplete or nonfunctioning CLI. Student is not able to explain how the code is loaded or how the classes interact with each other.
+2. CLI is functioning, but code is scrambled. Student can explain some of how the code works, but has gaps in their explanation.
+3. CLI has least 4 user stories, and the CLI interface is separated from the models in the domain. The student can explain how the code works, but not why the code was architected the way it was. Code may be factored poorly, and might not handle errors or handle unexpected user input.
+4. CLI has more than the minimum 4 user stores, and has some error handling. Student can explain how the code works, and at least partially explain the design decisions for where different code belongs. Code is mostly well factored.
+5. Complete, functioning, well-factored CLI application, with robust error handling and interactivity. Student can explain the decisions made about the architecture of the application, and why particular behavior belongs to particular classes and methods.
+
+##### OO Ruby Syntax
+
+1. The project has syntax errors that prevent the code from running, or the student introduces syntax errors while pair programming, and is not able to correct them.
+2. Confusion of class and instance methods or variables, wrong method or variable scope.
+3. Demonstration of understanding of the behavior of Ruby class syntax, if not the purpose, or how to wield it to design well-architected code.
+4. Syntax and logic are correct, code more or less expresses its intent through variable and method names.
+5. Syntax and logic are correct, code expresses intent clearly, code is well factored into reusable single-purpose pieces.
+
+##### Modeling Data Using ActiveRecord
+
+1. Wrong syntax in models or migrations, incorrect logic in migrations or models. Relations between models incorrectly set up. Student cannot demonstrate writing a migration or updating a model to change code's behavior.
+2. Project has working syntax for models and migrations, but might not have enough models or relationships between them. Student incompletely demonstrates writing a migration or updating a model.
+3. Working syntax for models and migrations, student is able to add a migration and update a model to change behavior.
+4. More than the required number of relationships represented in migrations and models, with no errors. Student demonstrates writing a migration and updating a model.
+5. Multiple complex relationships represented in migrations and models, with no errors. Student demonstrates writing a migration and updating a model with ease, and can explain how different changes in the configuration of relationships affect code's behavior.
 
 ---
 
@@ -375,7 +426,11 @@ Can you think of any other scenarios? How would you gracefully handle such scena
 
 ### Phase 6: Presentation
 
-It's time to show off your creation to the world! Things you might want to do are:
+It's time to show off your creation to the world!
+
+The audience should be the technically-minded outsider that stumbles on your project. Do not expect that they will have any of the context behind your project - you need to tell them that context. Focus on telling them the story of your application. What problem does it solve? How do the features come together to solve that problem? Why did you decide to build it?
+
+Here are some of the options you have for making your project shine to the outside world:
 
 * Write a README detailing:
   * How to install your application.
@@ -383,15 +438,14 @@ It's time to show off your creation to the world! Things you might want to do ar
   * How to use your application (commands that can be run).
   * What your program looks like (screenshots).
   * etc.
+* Write a blog post about the project and process.
 * Prepare a demo video describing how a user would interact with your working project.
     * The video should:
-      * Have an overview of your project. (2 minutes max)
-* Prepare a presentation to follow your video. (3 minutes max)
-    * Your presentation should:
-      * Describe something you struggled to build, and show us how you ultimately implemented it in your code.
-      * Discuss 3 things you learned in the process of working on this project.
-      * Address, if anything, what you would change or add to what you have today?
-      * Present any code you would like to highlight.
-* Write a blog post about the project and process.
+      * Have an overview of your project.
+* Prepare a presentation
+  * Describe something you struggled to build, and show us how you ultimately implemented it in your code.
+  * Discuss things you learned in the process of working on this project.
+  * Address, if anything, what you would change or add to what you have today?
+  * Present any code you would like to highlight.
 
 🎊 Good job on making to the end! 🎊
