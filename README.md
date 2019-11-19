@@ -362,7 +362,7 @@ They'll use the following rubric to evaluate the project and interview.
 
 1. Incomplete or nonfunctioning CLI. Student is not able to explain how the code is loaded or how the classes interact with each other.
 2. CLI is functioning, but code is scrambled. Student can explain some of how the code works, but has gaps in their explanation.
-3. CLI has least 4 user stories, and the CLI interface is separated from the models in the domain. The student can explain how the code works, but not why the code was architected the way it was. Code may be factored poorly, and might not handle errors or handle unexpected user input.
+3. CLI has 4 user stories that meet the complexity requirements in the instructions, and the CLI interface is separated from the models in the domain. The student can explain how the code works, but not why the code was architected the way it was. Code may be factored poorly, and might not handle errors or handle unexpected user input.
 4. CLI has more than the minimum 4 user stores, and has some error handling. Student can explain how the code works, and at least partially explain the design decisions for where different code belongs. Code is mostly well factored.
 5. Complete, functioning, well-factored CLI application, with robust error handling and interactivity. Student can explain the decisions made about the architecture of the application, and why particular behavior belongs to particular classes and methods.
 
